@@ -1,0 +1,14 @@
+{
+	"gender": "male",
+	"firstname": "Bala",
+	"lastname": "Vignesh",
+	"surname": "R",
+	"email": "bala1234@gmail.com",
+	"password": "bala@1234",
+	"birthday": {
+		"day": "24",
+		"month": "6",
+		"year": "1995"
+	},
+	"phonenumber": "+341234578"
+}

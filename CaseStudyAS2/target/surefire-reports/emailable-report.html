@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Assignment2</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">69,531</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Assignment2</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testRunner.TestRunner</td><td><a href="#m0">runFeature</a></td><td rowspan="1">1575971361010</td><td rowspan="1">68799</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testRunner.TestRunner#runFeature</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Register Uk website&quot;</td><td>&quot;Assignment2&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><div "result">user launch the UK website (PASSED : 19s)</div><br/><div "result">user click Register-UK (PASSED : 7s)</div><br/><div "result">user enter Email ID-UK (PASSED : 1s)</div><br/><div "result">user enter password-UK (PASSED : 1s)</div><br/><div "result">user enter confirm password-UK (PASSED : 1s)</div><br/><div "result">user enter Birthday-UK as 25 07 1998 (PASSED : 4s)</div><br/><div "result">user click Register and create profile-UK (PASSED : 11s)</div><br/><div "result">user enter firstname-UK as Matt (PASSED : 1s)</div><br/><div "result">user enter lastname-UK as Damen (PASSED : 1s)</div><br/><div "result">user enter Street_house number-UK as 2&#x2F;35 (PASSED : 1s)</div><br/><div "result">user enter city-UK as London (PASSED : 1s)</div><br/><div "result">user enter postcode-UK as 12345 (PASSED : 1s)</div><br/><div "result">user click Add profile-UK (PASSED : 9s)</div><br/><div "result">user enter login Email ID-UK (PASSED : 1s)</div><br/><div "result">user enter the incorrect password-UK (PASSED : 1s)</div><br/><div "result">user click Signin button-UK (FAILED : 2s)</div><br/><div "result">user verify the Incorrect password text-UK (SKIPPED)</div><br/><div "result">user click Forgot password-UK (SKIPPED)</div><br/><div "result">user enter registered Email ID-UK (SKIPPED)</div><br/><div "result">user click Next-UK (SKIPPED)</div></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:300)
+	at wrapper.SeleniumWrapper.takeSnap(SeleniumWrapper.java:499)
+	at wrapper.SeleniumWrapper.click(SeleniumWrapper.java:195)
+	at testStepDefinition.UKwebsite.click_signin_button(UKwebsite.java:101)
+	at ✽.user click Signin button-UK(./features/Assignment2.feature:21)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

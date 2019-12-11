@@ -1,0 +1,9 @@
+{
+	"tripMode": "oneway",
+	"from":"Chennai",
+	"to":"Delhi",
+	"to2":"bangalore",
+	"depatureDate":"25-January 2020",
+	"returnDate":"5-February 2020",
+	"depatureDate1":"5-February 2020"
+}

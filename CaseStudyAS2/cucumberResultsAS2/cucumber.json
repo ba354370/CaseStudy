@@ -1,0 +1,341 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1817880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GermanyWebsite.loadData()"
+            }
+          },
+          {
+            "result": {
+              "duration": 480235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UKwebsite.loadData()"
+            }
+          },
+          {
+            "result": {
+              "duration": 438327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SpainWebsite.loadData()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Register Uk website",
+        "description": "",
+        "id": "assignment2;register-uk-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19340576060,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch the UK website",
+            "match": {
+              "location": "UKwebsite.launch_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7183528492,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click Register-UK",
+            "match": {
+              "location": "UKwebsite.register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1803399534,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter Email ID-UK",
+            "match": {
+              "location": "UKwebsite.enter_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1452173631,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password-UK",
+            "match": {
+              "location": "UKwebsite.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1452879657,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter confirm password-UK",
+            "match": {
+              "location": "UKwebsite.enter_confirm_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4509184763,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter Birthday-UK as 25 07 1998",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 26
+                },
+                {
+                  "val": "07",
+                  "offset": 29
+                },
+                {
+                  "val": "1998",
+                  "offset": 32
+                }
+              ],
+              "location": "UKwebsite.enter_birthday(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11032203121,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click Register and create profile-UK",
+            "match": {
+              "location": "UKwebsite.create_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1258566188,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter firstname-UK as Matt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Matt",
+                  "offset": 27
+                }
+              ],
+              "location": "UKwebsite.enter_firstname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1183640960,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter lastname-UK as Damen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Damen",
+                  "offset": 26
+                }
+              ],
+              "location": "UKwebsite.enter_lastname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1209563820,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter Street_house number-UK as 2/35",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 2/35",
+                  "offset": 36
+                }
+              ],
+              "location": "UKwebsite.enter_house_number(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1340576487,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter city-UK as London",
+            "match": {
+              "arguments": [
+                {
+                  "val": " London",
+                  "offset": 21
+                }
+              ],
+              "location": "UKwebsite.enter_city(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1369240493,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter postcode-UK as 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 12345",
+                  "offset": 25
+                }
+              ],
+              "location": "UKwebsite.enter_postcode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9906306261,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click Add profile-UK",
+            "match": {
+              "location": "UKwebsite.add_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1750367125,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter login Email ID-UK",
+            "match": {
+              "location": "UKwebsite.enter_login_emailID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1643813093,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the incorrect password-UK",
+            "match": {
+              "location": "UKwebsite.enter_incorrect_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.RuntimeException: Unexpected result for screenshot command: null\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:300)\r\n\tat wrapper.SeleniumWrapper.takeSnap(SeleniumWrapper.java:499)\r\n\tat wrapper.SeleniumWrapper.click(SeleniumWrapper.java:195)\r\n\tat testStepDefinition.UKwebsite.click_signin_button(UKwebsite.java:101)\r\n\tat ✽.user click Signin button-UK(./features/Assignment2.feature:21)\r\n",
+              "duration": 2253531204,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "user click Signin button-UK",
+            "match": {
+              "location": "UKwebsite.click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user verify the Incorrect password text-UK",
+            "match": {
+              "location": "UKwebsite.verify_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user click Forgot password-UK",
+            "match": {
+              "location": "UKwebsite.forgot_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user enter registered Email ID-UK",
+            "match": {
+              "location": "UKwebsite.enter_registered_emailID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user click Next-UK",
+            "match": {
+              "location": "UKwebsite.click_next()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Assignment2"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Assignment2",
+    "description": "",
+    "id": "assignment2",
+    "keyword": "Feature",
+    "uri": "./features/Assignment2.feature",
+    "tags": []
+  }
+]

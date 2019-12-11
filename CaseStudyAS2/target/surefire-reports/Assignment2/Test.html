@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 10 15:19:20 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69531 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunner.runFeature()'><b>runFeature</b><br>Test class: testRunner.TestRunner<br>Parameters: "Register Uk website", "Assignment2"<br/>
+<a href="#Output-1094272405" onClick='toggleBox("Output-1094272405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1094272405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1094272405">
+<div "result">user launch the UK website (PASSED : 19s)</div><br/>
+<div "result">user click Register-UK (PASSED : 7s)</div><br/>
+<div "result">user enter Email ID-UK (PASSED : 1s)</div><br/>
+<div "result">user enter password-UK (PASSED : 1s)</div><br/>
+<div "result">user enter confirm password-UK (PASSED : 1s)</div><br/>
+<div "result">user enter Birthday-UK as 25 07 1998 (PASSED : 4s)</div><br/>
+<div "result">user click Register and create profile-UK (PASSED : 11s)</div><br/>
+<div "result">user enter firstname-UK as Matt (PASSED : 1s)</div><br/>
+<div "result">user enter lastname-UK as Damen (PASSED : 1s)</div><br/>
+<div "result">user enter Street_house number-UK as 2&#x2F;35 (PASSED : 1s)</div><br/>
+<div "result">user enter city-UK as London (PASSED : 1s)</div><br/>
+<div "result">user enter postcode-UK as 12345 (PASSED : 1s)</div><br/>
+<div "result">user click Add profile-UK (PASSED : 9s)</div><br/>
+<div "result">user enter login Email ID-UK (PASSED : 1s)</div><br/>
+<div "result">user enter the incorrect password-UK (PASSED : 1s)</div><br/>
+<div "result">user click Signin button-UK (FAILED : 2s)</div><br/>
+<div "result">user verify the Incorrect password text-UK (SKIPPED)</div><br/>
+<div "result">user click Forgot password-UK (SKIPPED)</div><br/>
+<div "result">user enter registered Email ID-UK (SKIPPED)</div><br/>
+<div "result">user click Next-UK (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:300)
+	at wrapper.SeleniumWrapper.takeSnap(SeleniumWrapper.java:499)
+	at wrapper.SeleniumWrapper.click(SeleniumWrapper.java:195)
+	at testStepDefinition.UKwebsite.click_signin_button(UKwebsite.java:101)
+	at ?.user click Signin button-UK(./features/Assignment2.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1094272405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1094272405'><pre>java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:300)
+	at wrapper.SeleniumWrapper.takeSnap(SeleniumWrapper.java:499)
+	at wrapper.SeleniumWrapper.click(SeleniumWrapper.java:195)
+	at testStepDefinition.UKwebsite.click_signin_button(UKwebsite.java:101)
+	at ?.user click Signin button-UK(./features/Assignment2.feature:21)
+</pre></div></td>
+<td>68</td>
+<td>testRunner.TestRunner@6a79c292</td></tr>
+</table><p>
+</body>
+</html>

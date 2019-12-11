@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user launch the MakeMyTrip website (PASSED : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user is in home page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user select trip mode (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user Select From and To (PASSED : 21s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-12-10T20:30:49 IST" name="Default suite" finished-at="2019-12-10T20:31:27 IST" duration-ms="37510">
+    <groups>
+    </groups>
+    <test started-at="2019-12-10T20:30:49 IST" name="Default test" finished-at="2019-12-10T20:31:27 IST" duration-ms="37510">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T20:30:49 IST" name="setUpClass" finished-at="2019-12-10T20:30:50 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runFeature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T20:30:50 IST" name="runFeature" data-provider="scenarios" finished-at="2019-12-10T20:31:26 IST" duration-ms="36153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register Uk website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Assignment3"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user launch the MakeMyTrip website (PASSED : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user is in home page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user select trip mode (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user Select From and To (PASSED : 21s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runFeature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T20:31:26 IST" name="tearDownClass" finished-at="2019-12-10T20:31:27 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

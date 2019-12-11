@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user launch the UK website (PASSED : 19s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Register-UK (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Email ID-UK (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter password-UK (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter confirm password-UK (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Birthday-UK as 25 07 1998 (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Register and create profile-UK (PASSED : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter firstname-UK as Matt (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter lastname-UK as Damen (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Street_house number-UK as 2&#x2F;35 (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter city-UK as London (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter postcode-UK as 12345 (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Add profile-UK (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter login Email ID-UK (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter the incorrect password-UK (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Signin button-UK (FAILED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verify the Incorrect password text-UK (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Forgot password-UK (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter registered Email ID-UK (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Next-UK (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-12-10T15:19:20 IST" name="Assignment2" finished-at="2019-12-10T15:20:30 IST" duration-ms="69531">
+    <groups>
+    </groups>
+    <test started-at="2019-12-10T15:19:20 IST" name="Test" finished-at="2019-12-10T15:20:30 IST" duration-ms="69531">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@6a79c292]" started-at="2019-12-10T15:19:20 IST" name="setUpClass" finished-at="2019-12-10T15:19:20 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runFeature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@6a79c292]" started-at="2019-12-10T15:19:21 IST" name="runFeature" data-provider="scenarios" finished-at="2019-12-10T15:20:29 IST" duration-ms="68799" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register Uk website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Assignment2"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unexpected result for screenshot command: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unexpected result for screenshot command: null
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:300)
+at wrapper.SeleniumWrapper.takeSnap(SeleniumWrapper.java:499)
+at wrapper.SeleniumWrapper.click(SeleniumWrapper.java:195)
+at testStepDefinition.UKwebsite.click_signin_button(UKwebsite.java:101)
+at ✽.user click Signin button-UK(./features/Assignment2.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user launch the UK website (PASSED : 19s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Register-UK (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Email ID-UK (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter password-UK (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter confirm password-UK (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Birthday-UK as 25 07 1998 (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Register and create profile-UK (PASSED : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter firstname-UK as Matt (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter lastname-UK as Damen (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Street_house number-UK as 2&#x2F;35 (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter city-UK as London (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter postcode-UK as 12345 (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Add profile-UK (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter login Email ID-UK (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter the incorrect password-UK (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Signin button-UK (FAILED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verify the Incorrect password text-UK (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Forgot password-UK (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter registered Email ID-UK (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Next-UK (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runFeature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6a79c292]" started-at="2019-12-10T15:20:29 IST" name="tearDownClass" finished-at="2019-12-10T15:20:30 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Assignment2 -->
+</testng-results>

@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6411117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UKwebsite.loadData()"
+            }
+          },
+          {
+            "result": {
+              "duration": 942938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "makeTrip.loadData()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register Uk website",
+        "description": "",
+        "id": "assignment3;register-uk-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12941539609,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch the MakeMyTrip website",
+            "match": {
+              "location": "makeTrip.launch_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46730767,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is in home page",
+            "match": {
+              "location": "makeTrip.verify_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1556438101,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select trip mode",
+            "match": {
+              "location": "makeTrip.trip_mode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21490673689,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Select From and To",
+            "match": {
+              "location": "makeTrip.select_From_To()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Assignment3"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Assignment3",
+    "description": "",
+    "id": "assignment3",
+    "keyword": "Feature",
+    "uri": "./features/Assignment3.feature",
+    "tags": []
+  }
+]

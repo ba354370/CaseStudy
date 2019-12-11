@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user launch the UK website (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Register-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Email ID-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter password-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter confirm password-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Birthday-UK as 25 07 1998 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Register and create profile-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter firstname-UK as Matt (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter lastname-UK as Damen (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter Street_house number-UK as 2&#x2F;35 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter city-UK as London (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter postcode-UK as 12345 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Add profile-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter login Email ID-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter the incorrect password-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Signin button-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verify the Incorrect password text-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Forgot password-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter registered Email ID-UK (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click Next-UK (UNDEFINED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-12-10T15:14:50 IST" name="Default suite" finished-at="2019-12-10T15:14:52 IST" duration-ms="1433">
+    <groups>
+    </groups>
+    <test started-at="2019-12-10T15:14:50 IST" name="Default test" finished-at="2019-12-10T15:14:52 IST" duration-ms="1433">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T15:14:50 IST" name="setUpClass" finished-at="2019-12-10T15:14:51 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runFeature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T15:14:51 IST" name="runFeature" data-provider="scenarios" finished-at="2019-12-10T15:14:51 IST" duration-ms="343" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register Uk website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Assignment2"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[There are undefined steps]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: There are undefined steps
+at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:58)
+at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:59)
+at testRunner.TestRunner.runFeature(TestRunner.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user launch the UK website (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Register-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Email ID-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter password-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter confirm password-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Birthday-UK as 25 07 1998 (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Register and create profile-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter firstname-UK as Matt (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter lastname-UK as Damen (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter Street_house number-UK as 2&#x2F;35 (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter city-UK as London (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter postcode-UK as 12345 (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Add profile-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter login Email ID-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter the incorrect password-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Signin button-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verify the Incorrect password text-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Forgot password-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter registered Email ID-UK (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click Next-UK (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runFeature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@56de5251]" started-at="2019-12-10T15:14:51 IST" name="tearDownClass" finished-at="2019-12-10T15:14:52 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
