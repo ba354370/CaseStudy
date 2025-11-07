@@ -260,8 +260,8 @@ public class SeleniumWrapper extends WrapperConstants implements WdMethods {
 	public void rightClickNewtab(WebElement ele) {
 		try {
 			act = new Actions(driver);
-			act.contextClick(ele).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER);
-			act.build().perform();
+			act.contextClick(ele).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+
 			// act.contextClick(ele).perform();
 			// act.sendKeys(Keys.ARROW_DOWN).build().perform();
 			System.out.println(ele + "Element clicked successfully");
